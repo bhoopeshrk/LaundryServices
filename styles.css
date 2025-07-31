@@ -11,9 +11,9 @@ a {
 
 .container {
     display: flex;
-    padding: 25px;
+    padding: 25px 35px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -23,7 +23,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
-    flex-basis: 70%;
     justify-content: center;
 }
 
@@ -32,7 +31,6 @@ a {
 }
 
 .navUser {
-    text-align: end;
     padding: 22px 20px;
     background-color: aliceblue;
     border-radius: 15px;
@@ -50,26 +48,29 @@ a {
     flex-wrap: wrap;
     gap: 20px;
     padding: 30px;
-    flex-basis: 30%;
 }
 
-.rightDiv h1{
+.rightDiv h1 {
     line-height: 6vh;
     color: rgb(88, 88, 88);
 }
 
-.rightDiv p{
+.rightDiv p {
     line-height: 4vh;
     color: rgb(146, 146, 146);
 }
 
 .leftDiv {
-    /* flex-basis: 50%; */
     text-align: center;
+    padding: 0 30px;
+}
+
+.leftDiv img {
+    width: 100%;
 }
 
 .btn {
-    padding: 15px 30px;
+    padding: 20px 30px;
     background-color: rgb(49, 179, 239);
     width: 250px;
     text-align: center;
@@ -91,6 +92,7 @@ a {
         width: 150px;
         text-align: center;
         float: right;
+        width: 100%;
     }
 
     .rightDiv {
